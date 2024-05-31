@@ -24,13 +24,16 @@ Este projeto é um desafio de Programação Orientada a Objetos (POO) proposto p
 ## Estrutura do Projeto
 
 ```plaintext
-desafio_poo_java_dio/
-├── src/
-│   └── desafio_poo_java_dio/
-│       ├── AparelhoTelefonico.java
-│       ├── IPhone.java
-│       ├── NavegadorInternet.java
-│       └── ReprodutorMusical.java
+desafio_poo_java/
 ├── diagrams/
-│   └── iphone_uml_diagram.png
-└── README.md
+│ └── iphone_uml_diagram.png
+└── src/
+└── com/
+└── digitalinnovation/
+└── desafio/
+└── poo/
+└── java/
+├── AparelhoTelefonico.java
+├── IPhone.java
+├── NavegadorInternet.java
+└── ReprodutorMusical.java
