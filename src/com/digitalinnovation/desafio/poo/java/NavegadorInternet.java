@@ -1,4 +1,4 @@
-package desafio_poo_java_dio;
+package com.digitalinnovation.desafio.poo.java;
 
 public interface NavegadorInternet {
     void exibirPagina(String url);

@@ -1,4 +1,4 @@
-package desafio_poo_java_dio;
+package com.digitalinnovation.desafio.poo.java;
 
 public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     private String modelo;
