@@ -41,5 +41,4 @@ desafio_poo_java/
 
 ## Diagrama UML IPHONE
 
-![iphone_uml_diagram](https://github.com/klayver2001/desafio_poo_java/assets/92637652/33b1054d-f33c-4938-9e1d-41a009326724)
-
+![Logo do Markdown](diagrams/iphone_uml_diagram.png)
