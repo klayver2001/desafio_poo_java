@@ -9,7 +9,7 @@ public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         this.versao = versao;
     }
 
-    // Métodos getter para modelo e versao
+   
     public String getModelo() {
         return modelo;
     }
@@ -18,7 +18,7 @@ public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         return versao;
     }
 
-    // Métodos de ReprodutorMusical
+    
     @Override
     public void tocar() {
         System.out.println("Reproduzindo música no " + modelo + " versão " + versao);
@@ -34,7 +34,7 @@ public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Música selecionada no " + modelo + " versão " + versao + ": " + musica);
     }
 
-    // Métodos de AparelhoTelefonico
+    
     @Override
     public void ligar(String numero) {
         System.out.println("Ligando para: " + numero + " usando " + modelo + " versão " + versao);
@@ -50,7 +50,7 @@ public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Correio de voz iniciado no " + modelo + " versão " + versao);
     }
 
-    // Métodos de NavegadorInternet
+   
     @Override
     public void exibirPagina(String url) {
         System.out.println("Exibindo página no " + modelo + " versão " + versao + ": " + url);
